@@ -1,0 +1,205 @@
+body {
+  box-sizing: border-box;
+  width: 1070px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+h1,h2,h3,p {
+  padding: 0;
+  margin: 0;
+}
+/* <!-- ■■■■ ヘッダー ■■■■ */
+.header {
+  position: relative;
+  border-bottom: 1px #ddd solid;
+}
+.header IMG {
+  margin: 5px;
+}
+.header IMG:hover {
+  opacity: 0.8;
+}
+.header_logo {
+  display: flex;
+  margin-bottom: 15px;
+}
+.header_logo p {
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+.header_logo p IMG {
+  width: 75px;
+  height: auto;
+}
+.header_in {
+	display: inline-block;
+  width: 100%;
+	font-size: 16px;
+	padding: .8em 1.6em .4em .8em;
+	position: relative;
+	color: #fff;
+	z-index: 1;
+  background: #000;
+}
+.header_in IMG {
+  vertical-align: middle;
+}
+/* ■■■■ スライダー ■■■■ */
+.slider {
+  margin-top: 15px;
+}
+.slider IMG {
+  margin: 0 auto;
+}
+/* ■■■■ ナビゲーション ■■■■ */
+.nav {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.nav li {
+  margin-bottom: 15px;
+  border-bottom: 2px #ddd dashed;
+}
+.nav li:nth-child(1) {
+  margin-left: -1em;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav li span {
+  float: right;
+}
+ /* ■■■■ メインコンテンツ ■■■■  */
+ .top_wrap {
+   margin-left: 20px;
+ }
+ .top_wrap h2 {
+   margin-bottom: 5px;
+ }
+.card {
+  width: 25%;
+  margin: 15px;
+  text-align: center;
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px #ddd solid;
+}
+.card_win:after {
+  position: absolute;
+  content: "優勝記念";
+  top: -10px;
+  left: -15px;
+  color: #fff;
+  padding: 3px;
+  background: hsl(208, 68%, 52%);
+  border-radius: 5px;
+}
+.card IMG {
+  width: 240px;
+  height: auto;
+}
+.section {
+  display: flex;
+  margin-top: 15px;
+}
+.section_IMG IMG {
+  width: 400px;
+  height: auto;
+}
+.section_contents {
+  margin-left: 100px;
+}
+.section_contents p {
+  margin-bottom: 1.5rem;
+}
+.section_contents select {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+.section_contents input {
+  width: 100%;
+  padding: 15px;
+}
+.section_contents IMG {
+  width: 50px;
+  vertical-align: middle;
+}
+.recommended_wrap {
+  margin-top: 50px;
+}
+.recommended {
+  width: 20%;
+  margin: 15px;
+  text-align: center;
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px #ddd solid;
+}
+.recommended_wrap IMG {
+  width: 240px;
+  height: auto;
+}
+/* ■■■■ 買い物かご ■■■■ */
+.shop_bag {
+  display: flex;
+  position: relative;
+}
+.shop_total {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.shop_bag IMG {
+  width: 240px;
+  height: auto;
+}
+ /* ■■■■ 公式SNS ■■■■ */
+ .shop_section {
+   display: flex;
+ }
+ .shop {
+   width: 50%;
+   margin: 5px 30px;
+ }
+ .shop p {
+   margin-bottom: 5px;s
+ }
+/* ■■■■ フッター ■■■■ */
+.col-sm {
+  margin: 10px auto;
+  margin-top: 15px;
+}
+.col-sm IMG {
+  width: 240px;
+  height: auto;
+}
+.col-sm IMG:hover {
+  box-shadow: 0 12px 12px gray;
+}
+.footer {
+  clear: both;
+  border-top: 1px #ddd solid;
+}
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer li {
+  position: relative;
+}
+.footer li IMG:hover {
+  opacity: 0.7;
+}

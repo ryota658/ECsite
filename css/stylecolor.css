@@ -1,0 +1,344 @@
+/* ■■■■ ヘッダー　■■■■ */
+.header_urawa::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #e7002b;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_kashima::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #b71840;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_cosaka::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #d40069;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_kawasakif::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #35a0d9;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_fctokyo::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #214198;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_hiroshima::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #50318f;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_kashiwa::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #fff100;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_gosaka::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #093fa6;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_kobe::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #8f0a1f;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_nagoya::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #da361b;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_oita::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #140b8c;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_sapporo::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #d7000f;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_sendai::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #fccc00;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_shimizu::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #faa528;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_shonan::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #67b464;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_tosu::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #0096d2;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_yokohamafc::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #00a0e4;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+.header_yokohamafm::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background: #003989;
+	transform: scaleY(1.3) perspective(1.5em) rotateX(5deg);
+	transform-origin: bottom left;
+	border-radius: 8px 8px 0 0;
+}
+/* ■■■■ ショップ　■■■■ */
+.shop_kashima span {
+  background: #b71840;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_urawa span {
+  background: #e7002b;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_cosaka span {
+  background: #d40069;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_kawasakif span {
+  background: #35a0d9;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_fctokyo span {
+  background: #214198;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_hiroshima span {
+  background: #50318f;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_gosaka span {
+  background: #093fa6;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_kashiwa span {
+  background: #fff100;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_kobe span {
+  background: #8f0a1f;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_nagoya span {
+  background: #da361b;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_oita span {
+  background: #140b8c;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_sapporo span {
+  background: #d7000f;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_shimizu span {
+  background: #faa528;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+.shop_sendai span {
+	background: #fccc00;
+	color: #fff;
+	margin-right: 5px;
+	padding: 0;
+}
+.shop_shonan span {
+	background: #67b464;
+	color: #fff;
+	margin-right: 5px;
+	padding: 0;
+}
+.shop_tosu span {
+	background: #0096d2;
+	color: #fff;
+	margin-right: 5px;
+	padding: 0;
+}
+.shop_yokohamafc span {
+	background: #00a0e4;
+	color: #fff;
+	margin-right: 5px;
+	padding: 0;
+}
+.shop_yokohamafm span {
+	background: #003989;
+	color: #fff;
+	margin-right: 5px;
+	padding: 0;
+}
